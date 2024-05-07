@@ -14,3 +14,7 @@ test('2 === 2', async t => {
 test('3 === 3', async t => {
   assert.equal(3, 3)
 })
+
+test('4 === 5', async t => {
+  assert.equal(4, 5)
+})
