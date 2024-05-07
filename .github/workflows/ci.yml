@@ -22,7 +22,7 @@ jobs:
 
   lint:
     needs: should-run
-    if: needs.should-run.outputs.javascript == 'true'
+    if: needs.should-run.outputs.javascript == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -34,7 +34,7 @@ jobs:
 
   test:
     needs: should-run
-    if: needs.should-run.outputs.javascript == 'true'
+    if: needs.should-run.outputs.javascript == true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
