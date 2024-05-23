@@ -7,7 +7,8 @@
     "standard": "^17.1.0"
   },
   "dependencies": {
-    "abstract-logging": "^2.0.1"
+    "abstract-logging": "^2.0.1",
+    "nothing": "1.2.3"
   },
   "peerDependencies": {
     "isdebug": "^1.0.0"
