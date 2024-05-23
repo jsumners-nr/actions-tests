@@ -5,5 +5,14 @@
   },
   "devDependencies": {
     "standard": "^17.1.0"
+  },
+  "dependencies": {
+    "abstract-logging": "^2.0.1"
+  },
+  "peerDependencies": {
+    "isdebug": "^1.0.0"
+  },
+  "optionalDependencies": {
+    "laic": "^0.3.4"
   }
 }
